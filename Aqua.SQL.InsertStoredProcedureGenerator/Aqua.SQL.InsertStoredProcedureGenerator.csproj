@@ -1,8 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>A Free Software package for .NET to facilitate generating SQL Insert Stored Procedures</Description>
+    <Authors>Useme Alehosaini</Authors>
+    <Company />
+    <PackageProjectUrl>https://github.com/ualehosaini/Aqua.SQL.InsertStoredProcedureGenerator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ualehosaini/Aqua.SQL.InsertStoredProcedureGenerator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>auto-generate sql stored procedure helpers .net</PackageTags>
+    <InludeSymbols>true</InludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageLicenseFile>License.md</PackageLicenseFile>
+    <Version>1.0.1</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="obj\Aqua.SQL.InsertStoredProcedureGenerator.Helper.dll" />
+  </ItemGroup>
 
   <ItemGroup>
     <Reference Include="Aqua.SQL.InsertStoredProcedureGenerator.Helper">
